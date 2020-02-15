@@ -5,6 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "build": "npm run create:declarations && npm run compile",
+    "compile": "babel src --extensions .js,.ts --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\" --out-dir lib",
+    "create:declarations": "tsc",
     "test": "jest --forceExit",
     "test:watch": "npm t -- --watch",
     "test:ci": "npm t -- --config jest.config.ci.js"
