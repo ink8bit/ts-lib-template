@@ -10,6 +10,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    jest: true,
   },
 
   /**
@@ -44,15 +45,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
 
   /**
-   * @see {@link https://eslint.org/docs/user-guide/configuring#configuring-rules}
+   * @see {@link https://eslint.org/docs/user-guide/configuring#disabling-rules-only-for-a-group-of-files}
    */
-  rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
-  },
-
   overrides: [
     {
       files: '**/*.ts',
@@ -68,4 +62,15 @@ module.exports = {
       ],
     },
   ],
+
+  /**
+   * @see {@link https://eslint.org/docs/user-guide/configuring#configuring-rules}
+   */
+  rules: {
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    'no-console': 'error',
+  },
 };
