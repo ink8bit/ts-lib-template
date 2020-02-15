@@ -10,8 +10,9 @@
   "author": "ink8bit",
   "license": "MIT",
   "scripts": {
-    "validate": "npm run types:check && npm run format && npm run lint && npm t && npm run build",
-    "build": "babel src --extensions .js,.ts --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\" --out-dir lib",
+    "prebuild": "npm run types:check && npm run format && npm run lint && npm t",
+    "build": "npm run compile",
+    "compile": "babel src --extensions .js,.ts --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\" --out-dir lib",
     "types:check": "tsc",
     "lint": "eslint --ext .js,.ts .",
     "prettier": "prettier \"**/*.[j,t]s\"",

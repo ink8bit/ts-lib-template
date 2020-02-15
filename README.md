@@ -2,13 +2,27 @@
 
 TypeScript library template for creating **npm** packages.
 
-## Development
-
 ## Build
+
+```sh
+npm run build
+```
 
 ## Testing
 
+```sh
+npm t
+```
+
 ## Built with
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Babel](https://babeljs.io/)
+- [Jest](https://jestjs.io/)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
 
 ## Before publishing
 
