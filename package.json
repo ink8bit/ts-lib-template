@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ink8bit/ts-lib-template/issues"
   },
-  "homepage": "https://github.com/ink8bit/ts-lib-template#readme"
+  "homepage": "https://github.com/ink8bit/ts-lib-template#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
