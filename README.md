@@ -12,4 +12,9 @@ TypeScript library template for creating **npm** packages.
 
 ## Before publishing
 
-Change `private` property in _package.json_ to `false`.
+1. Change `private` property in _package.json_ to `false`.
+2. Check what's inside your future package:
+
+   ```sh
+   npm pack --dry-run
+   ```
