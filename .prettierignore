@@ -4,6 +4,5 @@ package.json
 package-lock.json
 
 coverage
-
 .cache
-dist
+lib
