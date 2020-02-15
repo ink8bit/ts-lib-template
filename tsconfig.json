@@ -6,6 +6,9 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "emitDeclarationOnly": true
-  }
+    "emitDeclarationOnly": true,
+    "outDir": "lib"
+  },
+  "include": ["src/**/*.js", "src/**/*.ts"],
+  "exclude": ["src/**/*.test.js", "src/**/*.spec.js"]
 }

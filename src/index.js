@@ -1,3 +1,4 @@
 import add from './add';
+import multiply from './multiply';
 
-add(1, 2);
+export { add, multiply };
