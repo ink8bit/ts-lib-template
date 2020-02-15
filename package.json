@@ -7,6 +7,8 @@
   "engines": {
     "node": "^12.0.0"
   },
+  "author": "ink8bit",
+  "license": "MIT",
   "scripts": {
     "build": "npm run create:declarations && npm run compile",
     "compile": "babel src --extensions .js,.ts --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\" --out-dir lib",
@@ -19,8 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/ink8bit/ts-lib-template.git"
   },
-  "author": "ink8bit",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ink8bit/ts-lib-template/issues"
   },
@@ -31,7 +31,6 @@
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
-    "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
     "@babel/runtime": "^7.8.4",
     "@typescript-eslint/eslint-plugin": "^2.19.2",
