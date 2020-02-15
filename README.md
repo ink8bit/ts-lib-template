@@ -1,3 +1,3 @@
 # TS Library template
 
-Library template with TypeScript.
+TypeScript library template for creating **npm** packages.
