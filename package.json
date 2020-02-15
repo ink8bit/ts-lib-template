@@ -1,0 +1,20 @@
+{
+  "name": "lib",
+  "version": "0.0.0",
+  "description": "Library template with TypeScript",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ink8bit/ts-lib-template.git"
+  },
+  "author": "ink8bit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ink8bit/ts-lib-template/issues"
+  },
+  "homepage": "https://github.com/ink8bit/ts-lib-template#readme"
+}
