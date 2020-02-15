@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ink8bit/ts-lib-template#readme",
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "prettier": "^1.19.1"
   }
 }
