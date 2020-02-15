@@ -8,3 +8,6 @@ src
 babel.config.js
 tsconfig.json
 jest.config.*
+.huskyrc
+lint-staged.config.js
+.github
