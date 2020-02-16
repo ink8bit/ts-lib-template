@@ -2,6 +2,20 @@
 
 TypeScript library template for creating **npm** packages.
 
+## Getting started
+
+1. Ensure that you have the right version of `node`:
+
+   ```sh
+   nvm use
+   ```
+
+2. Install packages:
+
+   ```sh
+   npm i
+   ```
+
 ## Build
 
 ```sh
