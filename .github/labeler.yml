@@ -1,0 +1,41 @@
+# Add `workflow` label to any change in `.github/workflows` folder
+workflow:
+  - .github/workflows/*
+
+# Add `code owners` label to any change in `CODEOWNERS` file
+code owners:
+  - .github/CODEOWNERS
+
+# Add `tests` label to any change to `*.spec.js` or `*.test.js` files within the `src` or `__tests__` folders
+tests:
+  - src/**/*.spec.js
+  - src/**/*.test.js
+  - __tests__/**/*
+
+# Add `jest` label to any change to `jest.config.*` files
+jest:
+  - jest.config.*
+
+# Add `node update` label to any change in `.nvmrc` file
+node update:
+  - .nvmrc
+
+# Add `pre-commit hook` label to any change in `.huskyrc` or `lint-staged.config.js` files
+pre-commit hook:
+  - .huskyrc
+  - lint-staged.config.js
+
+# Add `configuration` label to any change in dot or config files
+configuration:
+  - .*
+  - lint-staged.config.js
+  - jest.config.*
+  - babel.config.js
+
+# Add `readme` label to any change in README.md
+readme:
+  - README.md
+
+# Add `deps` label to any change in package-lock.json
+deps:
+  - package-lock.json
