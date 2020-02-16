@@ -26,8 +26,19 @@ npm t
 
 ## Before publishing
 
-1. Change `private` property in _package.json_ to `false`.
-2. Check what's inside your future package:
+1. Change package `name`.
+2. Fill out `keywords` section in your _package.json_.
+3. Change `private` property in _package.json_ to `false`.
+4. Change author's name.
+5. Check the `license`.
+6. Fill out the following sections:
+
+   - `repository`
+   - `bugs`
+   - `homepage`
+
+7. Don't forget to set a version.
+8. Check your package content:
 
    ```sh
    npm pack --dry-run
