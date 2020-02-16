@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   build:
-
     strategy:
       matrix:
         os:
@@ -13,17 +12,20 @@ jobs:
         node-version:
           - 12.x
           - 13.x
-    
+
     runs-on: ${{matrix.os}}
-    
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm run build --if-present
-    - run: npm test
-      env:
-        CI: true
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run types:check
+      - run: npm run format:check
+      - run: npm run lint
+      - run: npm run test:ci
+      - run: npm run compile
+        env:
+          CI: true
