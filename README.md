@@ -28,6 +28,14 @@ npm run build
 npm t
 ```
 
+## How to contribute
+
+Please refer to [CONTRIBUTING.md](/.github/CONTRIBUTING.md).
+
+## Semantic Versioning
+
+This project follows semantic versioning. I release patch versions for critical bugfixes, minor versions for new features or non-essential changes, and major versions for any breaking changes.
+
 ## Built with
 
 - [TypeScript](https://www.typescriptlang.org/)
