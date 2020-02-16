@@ -35,7 +35,3 @@ configuration:
 # Add `readme` label to any change in README.md
 readme:
   - README.md
-
-# Add `deps` label to any change in package-lock.json
-deps:
-  - package-lock.json
