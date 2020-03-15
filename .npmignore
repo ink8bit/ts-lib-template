@@ -11,3 +11,4 @@ jest.config.*
 .huskyrc
 lint-staged.config.js
 .github
+coverage
