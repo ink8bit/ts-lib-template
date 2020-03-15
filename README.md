@@ -1,5 +1,7 @@
 # TS Library template
 
+![CI build](https://github.com/ink8bit/ts-lib-template/workflows/Node.js%20CI/badge.svg)
+
 TypeScript library template for creating **npm** packages.
 
 ## Getting started
