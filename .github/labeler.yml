@@ -35,3 +35,11 @@ configuration:
 # Add `readme` label to any change in README.md
 readme:
   - README.md
+
+# Add `package` label to any change in package.json
+package:
+  - package.json
+
+# Add `lockfile` label to any change in package-lock.json
+lockfile:
+  - package-lock.json
