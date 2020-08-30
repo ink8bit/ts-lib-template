@@ -9,7 +9,3 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    ignore:
-      - dependency-name: "typescript"
-        # Wait for update of typescript-eslint package
-        versions: ["4.x"]
