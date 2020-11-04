@@ -1,3 +1,13 @@
+
+## v0.15.0
+
+### 4 Nov 2020 | Wed 12:16:05 MSK
+
+```
+101f669 | @ink8bit: Fix order of changelog entries
+05f3876 | @ink8bit: Update deps
+2173ad9 | @ink8bit: Update node version
+```
 ## v0.14.0
 
 ### 30 Aug 2020 | Sun 12:48:41 MSK
