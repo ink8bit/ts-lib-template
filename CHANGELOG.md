@@ -1,4 +1,15 @@
 
+## v0.16.0
+
+### 31 Jan 2021 | Sun 15:33:25 MSK
+
+**Releaser:** @ink8bit
+
+```
+33fffb8 | @ink8bit: Change readme formatting
+41963b5 | @ink8bit: Update deps
+```
+
 ## v0.15.0
 
 ### 4 Nov 2020 | Wed 12:16:05 MSK
