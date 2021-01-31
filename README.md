@@ -8,15 +8,15 @@ TypeScript library template for creating **npm** packages.
 
 1. Ensure that you have the right version of `node`:
 
-   ```sh
-   nvm use
-   ```
+```sh
+nvm use
+```
 
 2. Install packages:
 
-   ```sh
-   npm i
-   ```
+```sh
+npm i
+```
 
 ## Build
 
@@ -57,13 +57,13 @@ This project follows semantic versioning. I release patch versions for critical 
 5. Check the `license`.
 6. Fill out the following sections:
 
-   - `repository`
-   - `bugs`
-   - `homepage`
+- repository
+- bugs
+- homepage
 
 7. Don't forget to set a version.
 8. Check your package content:
 
-   ```sh
-   npm pack --dry-run
-   ```
+```sh
+npm pack --dry-run
+```
