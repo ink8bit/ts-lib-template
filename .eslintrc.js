@@ -16,7 +16,7 @@ module.exports = {
   /**
    * @see {@link https://eslint.org/docs/user-guide/configuring#extending-configuration-files}
    */
-  extends: ['eslint:recommended', 'eslint-config-prettier'],
+  extends: ['eslint:recommended', 'prettier'],
 
   /**
    * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-globals}
@@ -58,7 +58,7 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'eslint-config-prettier/@typescript-eslint',
+        'prettier',
       ],
     },
   ],
