@@ -1,3 +1,16 @@
+## v0.17.0
+
+### Sun, 07 Mar 2021 16:30:35 +0300
+
+**Released by:** @ink8bit
+
+```
+9e04c5e | ink8bit: Update deps
+9187d05 | ink8bit: Downgrade husky
+056ddc6 | ink8bit: Update eslint-config-prettier
+fd1fd5c | ink8bit: Fix eslint config
+```
+
 
 ## v0.16.0
 
