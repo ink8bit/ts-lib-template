@@ -41,7 +41,7 @@
     "@babel/core": "^7.13.10",
     "@babel/plugin-transform-modules-commonjs": "^7.13.8",
     "@babel/plugin-transform-runtime": "^7.13.10",
-    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-typescript": "^7.13.0",
     "@babel/runtime": "^7.13.9",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
