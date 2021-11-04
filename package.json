@@ -37,11 +37,11 @@
   },
   "homepage": "https://github.com/ink8bit/ts-lib-template#readme",
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
+    "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",
     "@babel/plugin-transform-runtime": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-env": "^7.16.0",
     "@babel/preset-typescript": "^7.15.0",
     "@babel/runtime": "^7.15.4",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
