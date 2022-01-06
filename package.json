@@ -26,7 +26,8 @@
     "format:check": "npm run prettier -- --list-different",
     "test": "jest --forceExit",
     "test:watch": "npm t -- --watch",
-    "test:ci": "npm t -- --config jest.config.ci.js"
+    "test:ci": "npm t -- --config jest.config.ci.js",
+    "prepare": "node ./prepare-hooks.js"
   },
   "repository": {
     "type": "git",
