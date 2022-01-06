@@ -29,7 +29,7 @@ module.exports = {
   /**
    * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-parser}
    */
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
 
   /**
    * @see {@link https://eslint.org/docs/user-guide/configuring#specifying-parser-options}
