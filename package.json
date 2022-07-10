@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/ink8bit/ts-lib-template#readme",
   "devDependencies": {
-    "@babel/cli": "^7.17.10",
+    "@babel/cli": "^7.18.6",
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
@@ -52,7 +52,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.1.0",
     "husky": "^7.0.4",
-    "jest": "^28.1.1",
+    "jest": "^28.1.2",
     "lint-staged": "^12.4.1",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
