@@ -6,7 +6,7 @@ const jestCommonConfig = require('./jest.config.common');
 module.exports = {
   ...jestCommonConfig,
   displayName: 'local',
-  notify: true,
+  notify: false,
   bail: true,
   verbose: false,
 };
