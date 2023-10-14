@@ -6,27 +6,27 @@ TypeScript library template for creating **npm** packages.
 
 ## Getting started
 
-1. Ensure that you have the right version of `node`:
+### 1. Ensure that you have the right version of `node`
 
-```sh
+```console
 nvm use
 ```
 
-2. Install packages:
+### 2. Install packages
 
-```sh
+```console
 npm i
 ```
 
 ## Build
 
-```sh
+```console
 npm run build
 ```
 
 ## Testing
 
-```sh
+```console
 npm t
 ```
 
@@ -56,14 +56,12 @@ This project follows semantic versioning. I release patch versions for critical 
 4. Change author's name.
 5. Check the `license`.
 6. Fill out the following sections:
-
-- repository
-- bugs
-- homepage
-
+    - repository
+    - bugs
+    - homepage
 7. Don't forget to set a version.
 8. Check your package content:
 
-```sh
+```console
 npm pack --dry-run
 ```
