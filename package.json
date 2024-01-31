@@ -39,7 +39,7 @@
   "homepage": "https://github.com/ink8bit/ts-lib-template#readme",
   "devDependencies": {
     "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.7",
+    "@babel/core": "^7.23.9",
     "@babel/eslint-parser": "^7.23.9",
     "@babel/plugin-transform-modules-commonjs": "^7.22.5",
     "@babel/plugin-transform-runtime": "^7.23.9",
